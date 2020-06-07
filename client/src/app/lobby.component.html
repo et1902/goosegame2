@@ -1,0 +1,14 @@
+<!-- user name -->
+<div class="container text-center w-25" style="margin-top: 15vh; min-width: 200px;">
+	<input class="container form-control text-center bg-light" id="playername" placeholder="Name" [(ngModel)]="playername">
+</div>
+
+<!-- game options -->
+<div class="container text-center w-25" style="margin-top: 10vh; min-width: 200px;">
+    <div class="input-group">
+			<input class="form-control text-center bg-light" id="gameID" placeholder="Game ID" [(ngModel)]="gameID">
+			<div class="input-group-append w-25">
+				<button (click)="close()" class="btn btn-dark w-100">Play</button>
+			</div>
+	</div>
+</div>
